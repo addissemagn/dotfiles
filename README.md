@@ -12,7 +12,7 @@ to configure on new machine
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# relace current machines .vimrc with this one
+# caution: will REPLACE current machines .vimrc with this one
 curl https://raw.githubusercontent.com/addissemagn/dotfiles/master/.vimrc
     --output ~/.vimrc
 ```
@@ -64,7 +64,7 @@ sudo yum install fonts-powerline
 
 ### misc setup
 #### swp files
-make directory for cleaner swap file storage (the .vimrc will look for this dir)
+make directory for cleaner swap file storage
 ```sh
 mkdir ~/.vimswap
 ```
