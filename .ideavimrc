@@ -1,0 +1,7 @@
+" tab nav
+nnoremap J gT
+nnoremap K gt
+
+" esc
+inoremap jk <Esc>
+inoremap kj <Esc>
