@@ -35,7 +35,7 @@ vim +'PlugInstall --sync' +qa
 # setup YouCompleteMe
 brew install cmake macvim python
 brew install mono go nodejs
-python ~/.vim/plugged/YouCompleteMe/install.py --all
+python3 ~/.vim/plugged/YouCompleteMe/install.py --all
 
 # setup fuzzyfinder ag
 brew install the_silver_searcher
