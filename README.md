@@ -10,3 +10,6 @@ curl https://raw.githubusercontent.com/addissemagn/dotfiles/master/.tmux.conf --
 ```
 
 [config specific / dev environment setup](https://gist.github.com/addissemagn/db3aee841b374199ada608ea0b188479)
+
+other: 
+* install [oh my zsh](https://ohmyz.sh/): `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" `
